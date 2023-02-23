@@ -1,0 +1,61 @@
+body{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.section{
+    padding: 5px 10px;
+}
+
+.bookmarkChapters{
+    padding: 0px 50px;
+}
+
+.link:hover{
+    color:rgb(233, 122, 122);
+}
+
+.google:hover{
+    color:black;
+    background-color: gold;
+    font-weight: bold;
+}
+
+.linkButton:link,.linkButton:visited{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+}
+
+.linkButton:hover,.linkButton:active{
+    background-color: blue;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    /* float: left; */
+    margin: 5px 5px;
+}
+
+.tableContainer{
+    padding: 0px 50px 0px 50px;
+}
+table{
+    border-radius: 50px;
+    width: 100%;
+}
+table,th,td{
+    /* border: 2px solid royalblue; */
+    border-bottom: 1px solid #161616;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
