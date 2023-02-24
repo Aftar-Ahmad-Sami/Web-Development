@@ -1,4 +1,4 @@
 # Web-Development
 Learning Journey
 
-<h2>Target 1: **HTML & CSS**</h2>
+<h5>Target 1: **HTML & CSS**</h5>
