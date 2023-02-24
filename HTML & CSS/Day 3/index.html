@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aftar Ahmad Sami">
+    <meta name="keywords" content="HTML, HTML Tutorial">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/icon16.png">
+
+    <!-- <base href="https://www.w3schools.com/" target="_blank"> -->
+
+    <script>
+        function changeStyle() {
+            if (document.getElementById('color').innerHTML == 'Change to Black') {
+                document.getElementById('color').innerHTML = 'Change to Red';
+                document.getElementById('jsHeadline').style.color = 'black';
+                return;
+            }
+            document.getElementById('jsHeadline').style.color = 'red';
+            document.getElementById('color').innerHTML = 'Change to Black';
+        }
+
+        function showDate() {
+            console.log(document.getElementById('date').innerHTML);
+            if (document.getElementById('date').innerHTML == 'Show Date &amp; Time') {
+                document.getElementById('date').innerHTML = 'Hide Date &amp; Time';
+                document.getElementById('date para').innerHTML = Date();
+                return;
+            }
+            document.getElementById('date').innerHTML = 'Show Date &amp; Time';
+            document.getElementById('date para').innerHTML = '';
+
+        }
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+    <title>Day 3</title>
+
+</head>
+
+<body>
+    <div class="section">
+        <h2>
+            IFrames
+        </h2>
+        <iframe src="https://www.youtube.com/embed/LQ3677p5NWg" title="Murir Tin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <hr>
+
+        <!--------------------------------------------------------------------------------------------------------------------------------------->
+
+        <h2 id="jsHeadline">HTML JavaScript</h2>
+        <button type="button" onclick="document.getElementById('jsHeadline').innerHTML = 'HTML'">
+            Show HTML</button>
+        <button type="button" onclick="document.getElementById('jsHeadline').innerHTML='JavaScript'">Show
+            JavaScript</button>
+        <button type="button" onclick="document.getElementById('jsHeadline').innerHTML='HTML JavaScript'">Show HTML
+            JavaScript</button>
+        <button id='color' type="button" onclick="changeStyle()">Change to Red</button>
+        <br><br>
+        <button id="date" type="button" onclick="showDate()">Show Date & Time</button>
+        <p id="date para"></p>
+        <hr>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!-- <h2>Base Element</h2>
+        <p><img src="images/stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a
+            relative address for the image. Since we have specified a base URL in the head section, the browser will
+            look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
+
+        <p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no
+            target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p> -->
+
+
+        <!------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
