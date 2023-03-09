@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
 
-body{
-    margin: 0px auto;
-    padding: 0px auto;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/002/037/924/original/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg");
-    background-repeat: no-repeat;
-    font-family: 'Roboto',sans-serif;
-    
+body {
+  height: 100vh;
+  margin: 0px auto;
+  padding: 0px auto;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/037/924/original/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg");
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 
-*{                            /* CSS Universal Selector */
-    box-sizing: border-box;
+* {
+  /* CSS Universal Selector */
+  box-sizing: border-box;
 }
 
-h1.center{
+h1.center {
   color: dodgerblue;
   font-weight: bold;
 }
 
-h3.center{
-  color:brown;
+h3.center {
+  color: brown;
   font-family: Courier;
   font-style: italic;
   font-weight: bold;
 }
-
-  
