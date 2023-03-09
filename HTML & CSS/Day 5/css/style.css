@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
 body{
     margin: 0px auto;
     padding: 0px auto;
     background-image: url("https://static.vecteezy.com/system/resources/previews/002/037/924/original/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg");
     background-repeat: no-repeat;
+    font-family: 'Roboto',sans-serif;
     
 }
 
@@ -13,7 +16,6 @@ body{
 
 h1.center{
   color: dodgerblue;
-  font-family: Times;
   font-weight: bold;
 }
 
