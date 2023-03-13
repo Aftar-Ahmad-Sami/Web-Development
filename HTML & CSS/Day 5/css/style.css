@@ -6,14 +6,19 @@ body {
   padding: 0px auto;
   background-image: url("https://static.vecteezy.com/system/resources/previews/002/037/924/original/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
   font-family: 'Roboto', sans-serif;
-
 }
 
 
 * {
   /* CSS Universal Selector */
   box-sizing: border-box;
+}
+
+.center{
+  text-align: center;
 }
 
 h1.center {
@@ -26,4 +31,8 @@ h3.center {
   font-family: Courier;
   font-style: italic;
   font-weight: bold;
+}
+#clock{
+ color: rgb(59, 179, 22);
+ background-color: chocolate;
 }
